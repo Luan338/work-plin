@@ -18,9 +18,11 @@
     margin: 0 auto;
     align-items: center;
     justify-content: space-between;
+    padding: 1%;
 }
 
 .logo{
+    cursor: pointer;
     font-weight: 900;
     font-size: 2rem;
     font-family: 'Poppins', sans-serif;
@@ -36,9 +38,10 @@ span{
     font-family: 'Montserrat', sans-serif;
     width: 305px;
     display: flex;
+    align-items: self-end;
     justify-content: space-between;
     list-style: none;
-    padding: 2%;
+    height: 2.1rem;
     z-index: 2;
 }
 
@@ -68,7 +71,6 @@ span{
 
 .box-imgConnection{
     width: 50%;
-    text-align: center;
 }
 
 .img-connection{
@@ -86,14 +88,21 @@ span{
 }
 
 .box-title{
+    display: flex;
+    justify-content: center;
     width: 50%;
+    font-size: 10%;
     padding: 6%;
 }
 
 .title{
-    width: 75%;
+    width: 295px;
     padding: 8%;
-    font-size: 2.5rem;
+    font-size: 22.5em;
+}
+
+.everything{
+
 }
 
 .container{
@@ -124,16 +133,20 @@ span{
     flex-direction: column;
     width: 50%;
     padding: 8%;
+    font-size: 5%;
 }
 
 .interacao{
-    font-size: 1.5rem;
+    display: flex;
+    width: 118%;
+    height: 3rem;
+    font-size: 23em;
     border: 2px solid #6C63FF;
     border-radius: 9px;
-    padding: 2%;
+    padding: 5%;
     margin: 5%;
+    align-items: center;
     cursor: pointer;
-    box-shadow: 0px 4px 10px -4px #6C63FF;
     font-family: 'Poppins', sans-serif;
 }
 .interacao:hover{
@@ -142,21 +155,25 @@ span{
 }
 
 .box-paragraph{
+    display: flex;
+    align-items: center;
     text-align: center;
     width: 50%;
-    padding: 8%;
+    padding: 6%;
+    font-size: 4%;
 }
 
 .paragraph{
-    width: 123%;
-    font-size: 1.5rem;
+    width: 100%;
+    height: 16rem;
+    align-items: center;
+    display: flex;
+    font-size: 27em;
     border: 1px solid #000;
     border-radius: 10px;
-    box-shadow: gray 5px;
-    padding: 2%;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    box-shadow: 0px 7px 6px 0px rgb(165, 165, 165);
+    box-shadow: 0px 7px 6px 0px rgb(165 165 165);
 }
 
 .box-btn{
@@ -184,36 +201,50 @@ span{
 
 .section-footer{
     width: 100%;
+    background: #6C63FF;
 }
 
 .box-footer{
     display: flex;
     justify-content: space-between;
     max-width: 1240px;
-    background: #6C63FF;
-    width: 100%;
-    padding: 30px;
+    width: 80%;
     margin: 0 auto;
-    margin-top: 150px;
+    margin-top: 100px;
+    padding: 10px;
 }
 
 .box-nav{
-    background: tan;
-    padding: 5%;
     list-style: none;
-    width: 20%;
+    width: 18%;
     display: flex;
     flex-direction: column;
 }
 
+.list-nav{
+    padding: 4%;
+}
+
+.link{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #000;
+}
+.link:hover{
+    color: #fff;
+}
+
 .envelope{
-    width: 40%;
+    width: 56%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
 }
 
 .subtitle{
+    cursor: pointer;
     font-size: 2rem;
 }
 @media (max-width: 640px){
@@ -240,5 +271,10 @@ span{
 
     .list{
         font-size: 1.7rem;
+    }
+
+    .box-connection{
+        flex-direction: column-reverse;
+        background-color: red;
     }
 }
