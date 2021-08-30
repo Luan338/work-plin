@@ -101,10 +101,6 @@ span{
     font-size: 22.5em;
 }
 
-.everything{
-
-}
-
 .container{
     max-width: 1240px;
     display: flex;
@@ -258,23 +254,131 @@ span{
         padding: 18px 0 27px;
     }
 
+    .logo{
+        font-size: 9vw;
+    }
+
+    span{
+        font-size: 9vw;
+    }
+
     .group-header{
         flex-direction: column;
     }
 
     .nav-list{
         flex-direction: column;
-        height: 136px;
+        height: 25vw;
         width: 80%;
         align-items: center;
     }
 
     .list{
-        font-size: 1.7rem;
+        font-size: 4.5vw;
     }
 
     .box-connection{
         flex-direction: column-reverse;
-        background-color: red;
+        text-align: center;
+        height: 36rem;
+    }
+
+    .box-title{
+        width: 100%;
+        height: 7vw;
+        align-items: center;
+    }
+
+    .title{
+        width: 100%;
+        font-size: 10vw;
+    }
+    
+    .everything{
+        font-size: 10vw;
+    }
+
+    .box-connection{
+        width: 100%;
+        height: 99vw;
+    }
+
+    .box-imgConnection{
+        width: 100%;
+        height: 48vw;
+    }
+
+    .img-connection{
+        width: 60%;
+    }
+
+    .container{
+        width: 100%;
+        height: 108vw;
+    }
+
+    .title-main, .plin{
+        font-size: 9vw;
+    }
+
+    .paragraph{
+        display: none;
+    }
+
+    .box-plin{
+        width: 100%;
+        height: 80vw;
+    }
+
+    .box-interacao{
+        width: 32%;
+        margin: 0 4%;
+        height: 79vw;
+    }
+
+    .interacao{
+        z-index: 3;
+        width: 463%;
+        padding: 33%;
+        font-size: 5vw;
+        margin-bottom: 21%;
+    }
+
+    .box-btn{
+        height: 12vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn{
+        width: 53%;
+        font-size: 5vw;
+    }
+
+    .box-footer{
+        flex-direction: column-reverse;
+        align-items: center;
+        height: 68vw;
+    }
+
+    .envelope{
+        width: 100%;
+        height: 22vw;
+        justify-content: center;
+    }
+
+    .subtitle{
+        font-size: 10vw;
+    }
+    
+    .box-nav{
+        width: 100%;
+        height: 43vw;
+        align-items: center;
+    }
+
+    .link{
+        font-size: 6vw;
+        font-weight: bolder;
     }
 }
